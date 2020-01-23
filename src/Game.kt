@@ -8,10 +8,10 @@ fun main() {
     val karma = (Math.pow(Math.random(), (100 - healthPoints) / 100.0) *
             20).toInt()
     val auraColor = when (karma) {
-        in 0..5 -> "red"
-        in 6..10 -> "orange"
-        in 11..15 -> "purple"
-        in 16..20 -> "green"
+        in 0..5 -> "красный"
+        in 6..10 -> "оранжквый"
+        in 11..15 -> "пупорный"
+        in 16..20 -> "зелёный"
         else -> ""
     }
     // val auraColor = if (auraVisible) "GREEN" else "NONE"
